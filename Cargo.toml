@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# The `std` feature is needed for argon2 to implement std::error::Error
+argon2 = { version = "0.5.3", features = ["std"] }
+thiserror = "1.0.56"
+uuid = { version = "1.7.0", features = ["serde", "v4"] }
+validator = "0.16.1"
