@@ -10,4 +10,4 @@ edition = "2021"
 argon2 = { version = "0.5.3", features = ["std"] }
 thiserror = "1.0.56"
 uuid = { version = "1.7.0", features = ["serde", "v4"] }
-validator = "0.16.1"
+validator = "0.17.0"
